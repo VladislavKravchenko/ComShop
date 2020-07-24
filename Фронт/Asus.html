@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <title>Asus</title>
+  <head><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div>
+          <a title="Главная" href="home.html" target="_blank"
+            ><img src="img/header.png" alt="header"
+          /></a>
+        </div>
+      </div>
+      <div id="mainProduction">
+        <div id="orderIMG"><img src="img/PC_pic/asus1.jpeg" /></div>
+        <div id="manuChose">
+          <div id="img2"><img src="img/PC_pic/asus2.jpeg" /></div>
+          <div id="img3"><img src="img/PC_pic/asus3.jpeg" /></div>
+          <div id="img4"><img src="img/PC_pic/asus4.jpeg" /></div>
+          <div id="orderText">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <form action="/home/order" method="POST" class="order">
+              <fieldset>
+                <legend>Оформление запроса</legend>
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Введите ваше имя"
+                  required
+                /><br \ />
+                <input
+                  type="tel"
+                  name="tek"
+                  placeholder="+380 (XXX) (XXX) (XXX)"
+                  required
+                /><br \ />
+                <input type="submit" />
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="footer"></div>
+    </div>
+  </body>
+  <link rel="stylesheet" href="grafic.css" />
+  <script src="app.js"></script>
+</html>
